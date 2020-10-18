@@ -1,0 +1,99 @@
+header{
+    background: url(teamproject.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+    z-index: 0;
+  }
+  
+  .nav-wrapper{
+    z-index: 1;
+    background: transparent;
+    height: 60px;
+   width: auto;
+  }
+  .logoname{
+    margin-top: 0px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    
+
+  }
+  .logoname .logotextabove{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ 
+  div.fullnav{ 
+      margin-left: 30%;
+      
+  }
+
+ 
+  nav ul a{
+    text-align: center;
+    font-weight: bold;
+    background: black;
+    border-bottom-left-radius: 10mm;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    border-bottom-right-radius: 10mm;
+  }
+  .sidenav-trigger{
+      color: black;
+  }
+
+  .fullnav .sections .dropdownsection{
+    display: none;
+    position: absolute;
+    min-width: auto;
+    z-index: 1;
+  }
+  .fullnav .sections .dropdownsection a{
+    text-decoration: none;
+    display: block;
+  }
+  .fullnav .sections .dropdownsection a:hover{
+    background-color: darkseagreen;
+  }
+  .fullnav .sections:hover .dropdownsection{
+    display: block;
+  }
+  @media screen and (max-width: 670px){
+    header{
+      
+      min-height: 500px;
+      
+    }
+    nav .brand-logo{
+      font-size: 1.5rem; 
+  
+      }
+  }
+  @media screen and (max-width: 360px){
+    header{
+      min-height: 500px;
+      
+    }
+    nav .brand-logo{
+      font-size: 1.0rem; 
+  
+      }
+    .logotextbelow{
+    margin-top: 25px;
+    margin-right: 150px;
+    font-weight: bold;
+    
+  }
+  .logotextabove{
+    margin-top: 0px;
+    margin-right: 50px;
+    font-weight: bold;
+  }
+}
+
+
+  
